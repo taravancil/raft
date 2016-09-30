@@ -32,3 +32,7 @@ enum ServerStatus {
     Candidate,
     Follower,
 }
+
+pub enum ServerError {
+    // TODO define errors a server may encounter
+}

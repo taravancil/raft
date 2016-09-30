@@ -12,3 +12,7 @@ impl Raft {
     pub fn append() -> Result<()> {
     }
 }
+
+pub enum ClientError {
+    // TODO define errors that the client may encounter
+}
