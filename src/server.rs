@@ -1,4 +1,6 @@
 pub struct Server {
+    pub status: ServerStatus,
+
     // persistent state
 
     // latest term the server has seen
