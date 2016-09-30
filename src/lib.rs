@@ -13,6 +13,7 @@ impl Raft {
     }
 }
 
+#[derive(Debug)]
 pub enum ClientError {
     // TODO define errors that the client may encounter
 }

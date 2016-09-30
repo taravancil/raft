@@ -33,6 +33,7 @@ enum ServerStatus {
     Follower,
 }
 
+#[derive(Debug)]
 pub enum ServerError {
     // TODO define errors a server may encounter
 }
